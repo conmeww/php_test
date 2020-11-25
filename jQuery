@@ -1,0 +1,19 @@
+window.onkeydown = function(event){
+    //e = e || window.event;
+    if (event.keyCode) {
+        switch (event.keyCode) {
+            case 37:
+                alert('Left Arrow')
+                break;
+            case 39:
+                alert('Right Arrow')
+                break;
+            case 38:
+                alert('Up Arrow')
+                break;
+            case 40:
+                alert('Down Arrow')
+                break;
+                }
+    }
+   }
